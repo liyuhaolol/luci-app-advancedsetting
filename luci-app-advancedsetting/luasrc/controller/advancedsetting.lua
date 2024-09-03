@@ -8,6 +8,6 @@ function index()
 	end
 	
 	local page
-	page = entry({"admin", "system", "advancedsetting"}, cbi("advancedsetting"), _("Advanced Setting"), 60)
+	page = entry({"admin", "system", "advancedsetting"}, cbi("advancedsetting"), _("高级设置"), 60)
 	page.dependent = true
 end
